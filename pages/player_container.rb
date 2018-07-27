@@ -19,7 +19,7 @@ module Player
   end
 
   def clear_queue
-    sleep 5
+    sleep 2
     clear_queue_icon_element.click
   end
 end
